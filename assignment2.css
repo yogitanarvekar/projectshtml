@@ -1,0 +1,13 @@
+img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid red;
+}
+
+hr {
+    color: rgb(221, 20, 20);       
+    background-color: rgb(27, 22, 22); 
+    height: 2px;      
+    margin: 20px 0;    
+}
+
