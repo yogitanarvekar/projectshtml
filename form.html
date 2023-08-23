@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Enter Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="yogita" /><br />
+      <label for="emailid">Enter Your Email Id:</label>
+      <input type="email" id="emailid" name="emailid" /><br />
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" name="password" />
+      <br />
+      <!-- redio button -->
+      <input type="radio" name="gender" />
+      <label for="male">I am Male</label>
+      <input type="radio" name="gender" />
+      <label for="female">I am Female</label>
+      <br />
+      <!-- check box -->
+      <input type="checkbox" name="vehicles" />
+      <label for="bike">I have a Bike</label>
+      <input type="checkbox" name="vehicles" />
+      <label for="car">I have a car</label>
+
+      <!-- submit button  -->
+      <br />
+      <input type="submit" />
+
+      <!-- select element (dropdown functionality)  -->
+      <br />
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars" size="2" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        <option value="BMW">BMW</option>
+      </select>
+
+      <!-- textarea  -->
+      <br />
+      <textarea rows="5" cols="20"></textarea>
+
+      <!-- button element  -->
+      <br />
+      <button type="button">Hello! I am a Button</button>
+
+      <!-- fieldset and legend  -->
+
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+
+      <!-- data list element  -->
+
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <br />
+      <!-- range element  -->
+
+      <input type="range" />
+
+      <br />
+    </form>
+
+    <!-- output element  -->
+
+    <form
+      action="/action_page.php"
+      oninput="x.value=parseInt(a.value)+parseInt(b.value)"
+    >
+      0
+      <input type="range" id="a" name="a" value="50" />
+      100 +
+      <input type="number" id="b" name="b" value="80" />
+      =
+      <output name="x" for="a b"></output>
+      <br /><br />
+      <input type="submit" />
+
+      <br />
+      <!-- different types of input element  -->
+
+      <input type="button" value="button"/><br>
+      <input type="checkbox" /><br />
+      <input type="color" /><br />
+      <input type="date" /><br />
+      <input type="datetime-local" /><br />
+      <input type="email" /><br />
+      <input type="file" /><br />
+      <input type="hidden" /><br />
+      <input type="image" /><br />
+      <input type="month" /><br />
+      <input type="number" /><br />
+      <input type="password" /><br />
+      <input type="radio" /><br />
+      <input type="range" /><br />
+      <input type="reset" /><br />
+      <input type="search" /><br />
+      <input type="submit" /><br />
+      <input type="tel" /><br />
+      <input type="text" /><br />
+      <input type="time" /><br />
+      <input type="url" /><br />
+      <input type="week" />
+
+      <!-- input attributes  -->
+    <br><br><br>
+      <input type="text" value="Yogzii" readonly><br>
+      <input type="text" value="Yogzii" disabled>
+
+
+
+    </form>
+  </body>
+</html>
